@@ -1,28 +1,22 @@
-.linha {
-    border: 2px solid black;
-    background-color: bisque;
-    display: flex; /*caixa box*/
-    flex-direction: row; /*direção linha ou coluna*/
-    width: 100px;
-    height: 100px;
-    margin: 10px 0px;
-    justify-content: center; /*alinhamento*/
+.container {
+  border: 2px solid black;
+  background-color: bisque;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px;
+  justify-content: center;
 }
-
+.linha {
+  flex-direction: row;
+}
 .coluna {
-    border: 2px solid black;
-    background-color: bisque;
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 100px;
-    margin: 10px 0px;
-    justify-content: center;
+  flex-direction: column;
 }
 
 .item {
-    margin: 2px;
-    height: 20px;
-    width: 20px;
-    background-color: tomato;
+  margin: 2px;
+  height: 20px;
+  width: 20px;
+  background-color: tomato;
 }
